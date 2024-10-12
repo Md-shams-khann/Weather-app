@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="primediv">
+        <div class="container">
+            <div class="navbar">
+                <input type="search" placeholder="Search">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="content">
+                <div class="cloud_img">
+                    <img src="weather_img.png" alt="">
+                    
+                </div>
+                <div class="temp_place">
+                    <div class="temp">
+                        <p>20°c</p>
+                    </div>
+                    <div class="place">
+                        <p>New York</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footter">
+                <div class="humid">
+                    <div class="bar_icon">
+                        <i class="fa-solid fa-water"></i>
+                    </div>
+                    <div class="humid_info">
+                        <p>64%</p>
+                    </div>
+                </div>
+                <div class="speed">
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                    </div>
+                    <div class="wind_info">
+                        <p>18km/h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="last">
+                <div class="forCenter">
+                    <p id="forPadding" class="forPadding1">Humidity</p>
+                    <p id="forPadding" class="forPadding2">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
