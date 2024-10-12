@@ -197,7 +197,7 @@ img{
     }
     
     .container{
-        height: 90vmin;
+        height: 85vmin;
         width: 70vmin;
         border-radius: 5%;
         background-color:transparent;
@@ -210,5 +210,6 @@ img{
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 5%;
     }
   }
